@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test_covers",
+  "info": {
+    "singularName": "test-cover",
+    "pluralName": "test-covers",
+    "displayName": "test-cover"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cover": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

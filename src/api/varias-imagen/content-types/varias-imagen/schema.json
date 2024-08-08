@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "varias_imagens",
+  "info": {
+    "singularName": "varias-imagen",
+    "pluralName": "varias-imagens",
+    "displayName": "variasImagen"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cover": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
